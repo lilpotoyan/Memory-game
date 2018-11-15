@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+		background: #c4e3ed;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 0px 5px 5px;
+	border-radius: 15px;	
+    background: grey;
+    box-shadow: 1px 4px 15px 2px #888;
+    transition: all 0.5s ease-out;
+}
+
+.cell:hover {
+    box-shadow: 1px 4px 18px 4px #888;
+}
+
+/*cell:active {
+    transform: rotateY(180deg);
+}*/
+
+#main {
+	width: 100vw;
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+	max-width: 500px;
+}
+ 
